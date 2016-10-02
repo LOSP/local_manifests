@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="losp" fetch="git://github.com/"/>
+  <remove-project name="CyanogenMod/android_frameworks_base"/>
+  <remove-project name="CyanogenMod/android_external_apache-http"/>
+  <project path="frameworks/base" name="LOSP/android_frameworks_base" remote="losp" revision="cm-14.0"/>
+  <project path="external/apache-http" name="LOSP/android_external_apache-http" remote="losp" revision="cm-14.0"/>
+</manifest>
