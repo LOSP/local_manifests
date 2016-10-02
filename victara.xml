@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="victara" fetch="git://github.com/" />
+  <project path="device/motorola/victara" name="LOSP/android_device_motorola_victara" remote="victara" revision="cm-14.0"/>
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="victara" revision="cm-14.0"/>
+  <project path="kernel/motorola/msm8974" name="CyanogenMod/android_kernel_motorola_msm8974" remote="victara" revision="cm-14.0"/>
+</manifest>
