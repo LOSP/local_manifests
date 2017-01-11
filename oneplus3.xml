@@ -7,7 +7,7 @@
   <remove-project name="SlimRoms/frameworks_opt_slim"/>
   <remove-project name="SlimRoms/packages_apps_Settings"/>
   <remove-project name="SlimRoms/packages_apps_Dialer"/>
-  <remove-project name="SlimRoms/system_sepolicy"/>
+  <remove-project name="SlimRoms/android_system_sepolicy"/>
   <project path="frameworks/base" name="LOSP/android_frameworks_base" remote="losp" revision="ng7.1"/>
   <project path="frameworks/native" name="LOSP/frameworks_native" remote="losp" revision="ng7.1"/>
   <project path="frameworks/opt/slim" name="LOSP/frameworks_opt_slim" remote="losp" revision="ng7.1"/>
